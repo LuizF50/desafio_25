@@ -1,0 +1,77 @@
+body {
+    background-image: url('./images/background.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    color: cyan;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#calculateButton {
+    background-color: blue;
+    color: white;
+}
+
+#resetButton {
+    background-color: gray;
+    color: white;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#stepsTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#stepsTable th,
+#stepsTable td {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+#stepsTable th {
+    background-color: purple;
+}
+
+#stepsTable tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
